@@ -3,6 +3,7 @@ import User from "./components/User";
 
 import TimerFather from "./components/TimerFather";
 import CounterRed from "./components/CounterRed";
+import Formulario from "./components/Formulario";
 
 const App = () => {
   return (
@@ -18,6 +19,10 @@ const App = () => {
       <h2>useReducer</h2>
       <hr />
       <CounterRed />
+      <h2>customHooks</h2>
+      <hr />
+      <Formulario />
+      <br />
     </>
   );
 };
